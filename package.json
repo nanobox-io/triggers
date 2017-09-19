@@ -1,6 +1,6 @@
 {
   "name": "triggers",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Nanobox Dashboard Triggers UI component",
   "author": "Mark Parson <mark@nanobox.io>",
   "private": true,
@@ -9,6 +9,8 @@
     "build": "node webpack/build.js"
   },
   "dependencies": {
+    "lexi": "tolmark12/nanobox-lexi",
+    "lodash": "^4.17.4",
     "shadow-icons": "Tolmark12/shadow-icons-js"
   },
   "devDependencies": {

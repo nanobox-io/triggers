@@ -13,8 +13,9 @@ module.exports        = merge(baseWebpackConfig, {
     rules: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap })
   },
   externals:{
-    // Add any libraries you want odin to manage here:
-    // lodash : 'lodash',
+    lodash : 'lodash',
+    vue    : 'vue',
+    lexi   : 'lexi',
   },
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
