@@ -1,6 +1,6 @@
 {
   "name": "triggers",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Nanobox Dashboard Triggers UI component",
   "author": "Mark Parson <mark@nanobox.io>",
   "private": true,
